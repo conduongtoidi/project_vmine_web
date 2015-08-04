@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	width: 1280px;
+	background-color:#6f6;
+	margin: 2% auto;	
+}
+header{
+	text-align:center;
+	width: 50%;
+	float:left;
+	margin: 0px;
+}
+header p{
+	color: blue;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 40px;
+	margin-top: 50px;	
+	font-weight: bold;
+	
+}
+header ol{
+	color: black;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size: 20px;
+	text-align:left;
+	}
+span.text{
+	color:#FFB600;
+	margin-top: 10px;
+	line-height: opx;
+	font-size: 16px;
+}
+section{
+	width: 50%;
+	margin: 50px 640px;
+}
+section #header{
+	color: white;
+	background:#333e50;
+	height: 50px;
+	padding: 3px;
+}
+section #header p.logo{
+	float:left;
+}
+section #header #menu ul{
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 14px;
+	margin: 0px;
+	list-style: none;	
+}
+section #header #menu ul li{
+	width: 110px;
+	line-height:50px;
+	vertical-align:middle;
+	text-align: center;
+	height: 50px;
+	background-color: #1A8CFF;
+	margin-right:2px;
+	float: right;
+	display: inline-block;	
+}
+section #header #menu ul li:hover{
+	cursor: pointer;	
+}
+nav h1{
+	color: white;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 20px;
+	margin-left: 100px;
+}
+article{
+	color: blue;
+	margin-left:100px;
+	width: 650px;
+	height: 50px;
+	margin: 20px auto;
+}
+article ul{
+	color: black;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 17px;
+	list-style: none;	
+}
+article ul li{
+	text-align: center;
+	background-color: transparent;
+	margin-right:25px;
+	display: inline-block;
+}
+article ul li:hover{
+	cursor: pointer;	
+}
+article p{
+	font-size:25px;
+	text-align:right;
+	margin-bottom:0px;
+	}
+a:link, a:visited, a:hover, a:active{
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 17px;
+	color:black;
+	text-align: center;
+	background-color: transparent;
+	display: inline-block;
+	text-decoration: none;
+}
+#duoi{
+width:600px;
+}
+#duoi h1{
+	color: white;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 20px;
+	margin-left: 100px;
+}
+#menu ul li a{
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 14px;
+	color:black;
+	text-align: center;
+	background-color: transparent;
+	display: inline-block;
+	text-decoration: none;
+}
+footer{
+	text-align:right;
+	padding:5px;
+	font-size:25px;
+	}
